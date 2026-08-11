@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-08-11-github-pages-publication-design.md
+  s_252af06ee1c394::t_d6cdd34bed6535 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "db2de555e504d2c6d9f2a4d32ae8f1c07f7ca475",
+  "prompts": {},
+  "sessions": {
+    "s_252af06ee1c394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff00e-3da6-75e1-991f-2f19d5c2ac0f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Onero SDK Publishing <git-ai@local>"
+    }
+  }
+}
