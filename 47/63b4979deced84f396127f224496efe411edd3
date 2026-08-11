@@ -1,0 +1,19 @@
+pnpm-lock.yaml
+  s_252af06ee1c394::t_484ba4ecf3d611 1-1657
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "4763b4979deced84f396127f224496efe411edd3",
+  "prompts": {},
+  "sessions": {
+    "s_252af06ee1c394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff00e-3da6-75e1-991f-2f19d5c2ac0f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Onero SDK Publishing <git-ai@local>"
+    }
+  }
+}
