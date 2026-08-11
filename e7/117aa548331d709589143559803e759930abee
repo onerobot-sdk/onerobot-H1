@@ -1,0 +1,73 @@
+.github/workflows/deploy-pages.yml
+  s_252af06ee1c394::t_aa1d6feb6044d2 1-52
+.gitignore
+  s_252af06ee1c394::t_55fa54a81d214b 1-20
+AGENTS.md
+  s_252af06ee1c394::t_1c5e8b4a1fa528 1-49
+CLAUDE.md
+  s_252af06ee1c394::t_3077e5c02e63a1 1-37
+Makefile
+  s_252af06ee1c394::t_28b14d11cec3ba 1-122
+README-VIEWER.md
+  s_252af06ee1c394::t_d5e25a8601d179 1-32
+README.md
+  s_252af06ee1c394::t_94f28e22f6940b 1-39
+docs/.vitepress/config.ts
+  s_252af06ee1c394::t_d931e5f730261b 1-66
+docs/advanced/actions.md
+  s_252af06ee1c394::t_911ab70b2aa735 1-281
+docs/advanced/face-recognition.md
+  s_252af06ee1c394::t_b5d2a4ae4ddcd5 1-516
+docs/advanced/gesture-recognition.md
+  s_252af06ee1c394::t_6d89bdfd1b8f3c 1-154
+docs/advanced/moveit2.md
+  s_252af06ee1c394::t_35387766341e2d 1-386
+docs/advanced/tf.md
+  s_252af06ee1c394::t_64e23da6a5d83d 1-140
+docs/diagnostics/index.md
+  s_252af06ee1c394::t_4630b417392edc 1-397
+docs/examples/index.md
+  s_252af06ee1c394::t_296bb70bebf7a4 1-25
+docs/hardware/actuators.md
+  s_252af06ee1c394::t_5dbb72baabfd0d 1-581
+docs/hardware/audio.md
+  s_252af06ee1c394::t_3da8d43bb56a9a 1-285
+docs/hardware/components.md
+  s_252af06ee1c394::t_5ab3c69bdb0fc8 1-12
+docs/hardware/eyes.md
+  s_252af06ee1c394::t_104b8d3d6e07c9 1-254
+docs/hardware/sensors.md
+  s_252af06ee1c394::t_84f2c18e4c5e38 1-164
+docs/index.md
+  s_252af06ee1c394::t_5066b01d947d43 1-130
+docs/software/nav.md
+  s_252af06ee1c394::t_56650ff2518e9f 1-319
+docs/software/slam.md
+  s_252af06ee1c394::t_43f27608dd9f44 1-451
+package.json
+  s_252af06ee1c394::t_cd5e95e123da3b 1-16
+pnpm-lock.yaml
+  s_252af06ee1c394::t_7291eceb184e91 1-1657
+scripts/build-single-html.mjs
+  s_252af06ee1c394::t_3755a39896ca63 1-534
+serve.bat
+  s_252af06ee1c394::t_3383fd78174ec9 1-124
+serve.sh
+  s_252af06ee1c394::t_c06303b21f8355 1-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e7117aa548331d709589143559803e759930abee",
+  "prompts": {},
+  "sessions": {
+    "s_252af06ee1c394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff00e-3da6-75e1-991f-2f19d5c2ac0f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "onerobot-sdk <315726007+onerobot-sdk@users.noreply.github.com>"
+    }
+  }
+}
