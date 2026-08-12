@@ -1,0 +1,123 @@
+404.html
+  s_252af06ee1c394::t_2795c04f1ccc50 9-10,12-13,19
+advanced/actions.html
+  s_252af06ee1c394::t_da33c5c1463c38 9-10,12-16,21,96-97
+advanced/face-recognition.html
+  s_252af06ee1c394::t_25abc9d4742c97 9-10,12-16,21,262-263
+advanced/gesture-recognition.html
+  s_252af06ee1c394::t_8a8c0f30d77d15 9-10,12-16,21,44-45
+advanced/moveit2.html
+  s_252af06ee1c394::t_050256f09abb44 9-10,12-16,21,231-232
+advanced/tf.html
+  s_252af06ee1c394::t_c5a6be002a0259 9-10,12-16,21,79-80
+assets/advanced_actions.md.CQxGAtKq.js
+  s_252af06ee1c394::t_c81cb9de69a58d 1
+assets/advanced_actions.md.CQxGAtKq.lean.js
+  s_252af06ee1c394::t_53d73319531753 1
+assets/advanced_face-recognition.md.iu4uzi7D.js
+  s_252af06ee1c394::t_da3270aa22ec44 1
+assets/advanced_face-recognition.md.iu4uzi7D.lean.js
+  s_252af06ee1c394::t_2961a09f8a214a 1
+assets/advanced_gesture-recognition.md.DMgr-ith.js
+  s_252af06ee1c394::t_212c891c3f4fa7 1
+assets/advanced_gesture-recognition.md.DMgr-ith.lean.js
+  s_252af06ee1c394::t_33786d231bfd83 1
+assets/advanced_moveit2.md.BriJMg_n.js
+  s_252af06ee1c394::t_93460d611a5fd2 1
+assets/advanced_moveit2.md.BriJMg_n.lean.js
+  s_252af06ee1c394::t_37bec984f8e543 1
+assets/advanced_tf.md.BksqzYYO.js
+  s_252af06ee1c394::t_8f08355be6c7b3 1
+assets/advanced_tf.md.BksqzYYO.lean.js
+  s_252af06ee1c394::t_164618f1f12b73 1
+assets/app.1ZS66kkW.js
+  s_252af06ee1c394::t_3f5e1abd1c0749 1
+assets/chunks/@localSearchIndexroot.C2BID3nw.js
+  s_252af06ee1c394::t_2afdccbe9ab9f8 1
+assets/chunks/VPLocalSearchBox.MAd0-VAF.js
+  s_252af06ee1c394::t_36bfefc2277126 1,9
+assets/chunks/framework.GAIVwUEg.js
+  s_252af06ee1c394::t_0831c68cc167e5 19
+assets/chunks/theme.CW_0q-MD.js
+  s_252af06ee1c394::t_502b20c61797d9 1-2
+assets/diagnostics_index.md.B2LhLEBU.js
+  s_252af06ee1c394::t_a841f82b1b124c 1,76-77
+assets/diagnostics_index.md.B2LhLEBU.lean.js
+  s_252af06ee1c394::t_1cb2eab6dca010 1
+assets/examples_index.md.D_6s0KLF.js
+  s_252af06ee1c394::t_1e2bb8617b46da 1
+assets/examples_index.md.D_6s0KLF.lean.js
+  s_252af06ee1c394::t_e3d60e6e79082a 1
+assets/hardware_actuators.md.QCPHoWU0.js
+  s_252af06ee1c394::t_35d8d216633ba7 1
+assets/hardware_actuators.md.QCPHoWU0.lean.js
+  s_252af06ee1c394::t_ae77b400fd0ae9 1
+assets/hardware_audio.md.B3fRjU_a.js
+  s_252af06ee1c394::t_ea9108917abca8 1
+assets/hardware_audio.md.B3fRjU_a.lean.js
+  s_252af06ee1c394::t_50eb4969160c6a 1
+assets/hardware_components.md.CLrdbr7L.js
+  s_252af06ee1c394::t_ad948c72610a7a 1
+assets/hardware_components.md.CLrdbr7L.lean.js
+  s_252af06ee1c394::t_f226a5f0717a7d 1
+assets/hardware_eyes.md.BS1I1p1Y.js
+  s_252af06ee1c394::t_2972aa9040b14e 1
+assets/hardware_eyes.md.BS1I1p1Y.lean.js
+  s_252af06ee1c394::t_761802454fe844 1
+assets/hardware_sensors.md.BhAxD8mS.js
+  s_252af06ee1c394::t_559ff82ac0fe19 1
+assets/hardware_sensors.md.BhAxD8mS.lean.js
+  s_252af06ee1c394::t_498a6612cbc691 1
+assets/index.md.ayO8gBTT.js
+  s_252af06ee1c394::t_5c35c8afb19f55 1
+assets/index.md.ayO8gBTT.lean.js
+  s_252af06ee1c394::t_6f5ee1239863e4 1
+assets/software_nav.md.IHw-7O4e.js
+  s_252af06ee1c394::t_1e317d6ac1716d 1
+assets/software_nav.md.IHw-7O4e.lean.js
+  s_252af06ee1c394::t_3e171d43a5cb27 1
+assets/software_slam.md.YzKIgso3.js
+  s_252af06ee1c394::t_e1f0c08dba273c 1
+assets/software_slam.md.YzKIgso3.lean.js
+  s_252af06ee1c394::t_ddb9a18a1d8e6c 1
+assets/style.BHr0CvVP.css
+  s_252af06ee1c394::t_d56ca70411bcfc 1
+diagnostics/index.html
+  s_252af06ee1c394::t_34d52300967e74 9-10,12-16,21,96-97,177-178
+examples/index.html
+  s_252af06ee1c394::t_0936520695d9ed 9-10,12-16,21-22
+hardware/actuators.html
+  s_252af06ee1c394::t_c5177ba028f364 9-10,12-16,21,276-277
+hardware/audio.html
+  s_252af06ee1c394::t_fc79f378def2e0 9-10,12-16,21,115-116
+hardware/components.html
+  s_252af06ee1c394::t_77c77204742b24 9-10,12-16,21-22
+hardware/eyes.html
+  s_252af06ee1c394::t_d725bd6f4ad0e9 9-10,12-16,21,101-102
+hardware/sensors.html
+  s_252af06ee1c394::t_28fe4480822458 9-10,12-16,21,55-56
+hashmap.json
+  s_252af06ee1c394::t_5d302a20cbaf24 1
+index.html
+  s_252af06ee1c394::t_09c7bab76f8f75 9-10,12-16,21,26
+software/nav.html
+  s_252af06ee1c394::t_9631f21a2ba8b5 9-10,12-16,21,113-114
+software/slam.html
+  s_252af06ee1c394::t_e7bb8de878c538 9-10,12-16,21,121-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e965518eab6592f7eaae5f16911dc42d6ec48287",
+  "prompts": {},
+  "sessions": {
+    "s_252af06ee1c394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff00e-3da6-75e1-991f-2f19d5c2ac0f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "onerobot-sdk <315726007+onerobot-sdk@users.noreply.github.com>"
+    }
+  }
+}
