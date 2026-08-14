@@ -1,0 +1,34 @@
+{
+  "product": "H1",
+  "version": "1.2",
+  "packageName": "h1_description",
+  "urdf": "urdf/h1.urdf",
+  "links": 30,
+  "joints": 29,
+  "movableJoints": 27,
+  "controllableJoints": 17,
+  "controllableJointNames": [
+    "head_yaw",
+    "head_pitch",
+    "body_lift",
+    "left_arm_joint_1",
+    "left_arm_joint_2",
+    "left_arm_joint_3",
+    "left_arm_joint_4",
+    "left_arm_joint_5",
+    "left_arm_joint_6",
+    "left_arm_joint_7",
+    "right_arm_joint_1",
+    "right_arm_joint_2",
+    "right_arm_joint_3",
+    "right_arm_joint_4",
+    "right_arm_joint_5",
+    "right_arm_joint_6",
+    "right_arm_joint_7"
+  ],
+  "download": {
+    "file": "h1_description_v1.2.zip",
+    "sizeBytes": 4995079,
+    "sha256": "64e72ac27981efad40896a08a90cd8ae4e65a9bae62fe9fe08864fb3c6a07d55"
+  }
+}
