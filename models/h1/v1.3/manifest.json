@@ -1,0 +1,120 @@
+{
+  "product": "H1",
+  "version": "1.3",
+  "packageName": "h1_description",
+  "urdf": "urdf/h1.urdf",
+  "links": 48,
+  "joints": 47,
+  "movableJoints": 43,
+  "controllableJoints": 19,
+  "controllableJointNames": [
+    "head_yaw",
+    "head_pitch",
+    "body_lift",
+    "left_arm_joint_1",
+    "left_arm_joint_2",
+    "left_arm_joint_3",
+    "left_arm_joint_4",
+    "left_arm_joint_5",
+    "left_arm_joint_6",
+    "left_arm_joint_7",
+    "right_arm_joint_1",
+    "right_arm_joint_2",
+    "right_arm_joint_3",
+    "right_arm_joint_4",
+    "right_arm_joint_5",
+    "right_arm_joint_6",
+    "right_arm_joint_7"
+  ],
+  "coupledControls": [
+    {
+      "name": "left_gripper_opening",
+      "label": "左夹爪开合",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "joints": [
+        {
+          "name": "left_gripper_left_finger_joint",
+          "multiplier": 0.011
+        },
+        {
+          "name": "left_gripper_left_finger_joint_2",
+          "multiplier": 0.0037
+        },
+        {
+          "name": "left_gripper_left_finger_joint_3",
+          "multiplier": 0.0134
+        },
+        {
+          "name": "left_gripper_left_finger_joint_4",
+          "multiplier": 0.0127
+        },
+        {
+          "name": "left_gripper_right_finger_joint",
+          "multiplier": 0.011
+        },
+        {
+          "name": "left_gripper_right_finger_joint_2",
+          "multiplier": 0.0037
+        },
+        {
+          "name": "left_gripper_right_finger_joint_3",
+          "multiplier": 0.0134
+        },
+        {
+          "name": "left_gripper_right_finger_joint_4",
+          "multiplier": 0.0127
+        }
+      ]
+    },
+    {
+      "name": "right_gripper_opening",
+      "label": "右夹爪开合",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "joints": [
+        {
+          "name": "right_gripper_left_finger_joint",
+          "multiplier": 0.011
+        },
+        {
+          "name": "right_gripper_left_finger_joint_2",
+          "multiplier": 0.0037
+        },
+        {
+          "name": "right_gripper_left_finger_joint_3",
+          "multiplier": 0.0134
+        },
+        {
+          "name": "right_gripper_left_finger_joint_4",
+          "multiplier": 0.0127
+        },
+        {
+          "name": "right_gripper_right_finger_joint",
+          "multiplier": 0.011
+        },
+        {
+          "name": "right_gripper_right_finger_joint_2",
+          "multiplier": 0.0037
+        },
+        {
+          "name": "right_gripper_right_finger_joint_3",
+          "multiplier": 0.0134
+        },
+        {
+          "name": "right_gripper_right_finger_joint_4",
+          "multiplier": 0.0127
+        }
+      ]
+    }
+  ],
+  "download": {
+    "file": "h1_description_v1.3.zip",
+    "sizeBytes": 6418141,
+    "sha256": "01ec85aa9eac78b8ab0b75e4a1b21b45ce222cc94aa17e8f36389e0a5b3c9a8f"
+  }
+}
