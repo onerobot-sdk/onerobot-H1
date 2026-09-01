@@ -1,0 +1,23 @@
+assets/index.md.omvjIVLa.js
+  s_252af06ee1c394::t_f9d78ce675bc07 1
+assets/index.md.omvjIVLa.lean.js
+  s_252af06ee1c394::t_1f492303355f10 1
+index.html
+  s_252af06ee1c394::t_f7eb7c16145212 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "e3cc52e3696288b03ac47ddffebe288dd9e9667b",
+  "prompts": {},
+  "sessions": {
+    "s_252af06ee1c394": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff00e-3da6-75e1-991f-2f19d5c2ac0f",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "onerobot-sdk <315726007+onerobot-sdk@users.noreply.github.com>"
+    }
+  }
+}
