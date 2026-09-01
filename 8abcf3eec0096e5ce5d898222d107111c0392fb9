@@ -1,0 +1,63 @@
+404.html
+  s_a9518db3f8abdb::t_ab29abf55d3a1e 12,19
+advanced/actions.html
+  s_a9518db3f8abdb::t_0b47dee5c65a06 12,14,97
+advanced/face-recognition.html
+  s_a9518db3f8abdb::t_eb16ebd549831e 12,14,263
+advanced/gesture-recognition.html
+  s_a9518db3f8abdb::t_aceac6b0552045 12,14,45
+advanced/moveit2.html
+  s_a9518db3f8abdb::t_569026795372b3 12,14,232
+advanced/tf.html
+  s_a9518db3f8abdb::t_68d23f8f1b6848 12,14,80
+assets/app.yZ1CevK5.js
+  s_a9518db3f8abdb::t_8fca9df2795c06 1
+assets/chunks/@localSearchIndexroot.CHhnXk-o.js
+  s_a9518db3f8abdb::t_c194c9b91d521e 1
+assets/chunks/VPLocalSearchBox.CMfXZioo.js
+  s_a9518db3f8abdb::t_f634e046d86f39 1
+assets/chunks/theme.CZ3aGvK6.js
+  s_a9518db3f8abdb::t_8e1db751d890c9 1-2
+assets/index.md.DwWQxnZS.js
+  s_a9518db3f8abdb::t_6d85e2d353be1b 1
+diagnostics/index.html
+  s_a9518db3f8abdb::t_f3a38417f2ed64 12,14,178
+examples/index.html
+  s_a9518db3f8abdb::t_8753810aa97684 12,14,22
+hardware/actuators.html
+  s_a9518db3f8abdb::t_ba091ee0881519 12,14,277
+hardware/audio.html
+  s_a9518db3f8abdb::t_caac5897a9114a 12,14,116
+hardware/components.html
+  s_a9518db3f8abdb::t_ba9960f018ff75 12,14,22
+hardware/eyes.html
+  s_a9518db3f8abdb::t_5f824a2bb6a5f6 12,14,102
+hardware/robot-model.html
+  s_a9518db3f8abdb::t_5d940a06408254 12,14,27
+hardware/sensors.html
+  s_a9518db3f8abdb::t_4d5a225b918670 12,14,56
+hashmap.json
+  s_a9518db3f8abdb::t_96bca29a5c4c87 1
+index.html
+  s_a9518db3f8abdb::t_9129407ed9e430 12,14,16,21,26
+software/nav.html
+  s_a9518db3f8abdb::t_668d39f95d1577 12,14,114
+software/slam.html
+  s_a9518db3f8abdb::t_90a0d592c8874c 12,14,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8abcf3eec0096e5ce5d898222d107111c0392fb9",
+  "prompts": {},
+  "sessions": {
+    "s_a9518db3f8abdb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ff8db-746b-7b93-b84d-c7b814d0b95c",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "onerobot-sdk <315726007+onerobot-sdk@users.noreply.github.com>"
+    }
+  }
+}
