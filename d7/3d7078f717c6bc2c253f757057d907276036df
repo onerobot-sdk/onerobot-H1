@@ -1,0 +1,99 @@
+404.html
+  s_b91e2f0c3ab070::t_25840c1e6ab4c5 12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_aa3efed40a278b 12,14,21,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_3ef80f67357410 12,14,21,263
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_76c76aeacd6447 12,14,21,45
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_930dcbd87b44bf 12,14,21,232
+advanced/tf.html
+  s_b91e2f0c3ab070::t_15e326352c7db5 12,14,21,53
+assets/app.EYXptw33.js
+  s_b91e2f0c3ab070::t_a6b3aedf2d888f 1
+assets/chunks/@localSearchIndexroot.D4ZT9DDr.js
+  s_b91e2f0c3ab070::t_8c0ee893422376 1
+assets/chunks/VPLocalSearchBox.CybCRe5v.js
+  s_b91e2f0c3ab070::t_91bda63db26a5a 1
+assets/chunks/theme.D1BMhrP_.js
+  s_b91e2f0c3ab070::t_ba3b44862194b2 1-2
+assets/example_index.md.BftZNmLU.js
+  s_b91e2f0c3ab070::t_37680685629e7f 1,52
+assets/example_index.md.BftZNmLU.lean.js
+  s_b91e2f0c3ab070::t_2f19a4691d9ae7 1
+assets/getting-started_ros2-installation.md.DiyogTnQ.js
+  s_b91e2f0c3ab070::t_9777f9978ec4b9 1-54
+assets/getting-started_ros2-installation.md.DiyogTnQ.lean.js
+  s_b91e2f0c3ab070::t_afb42864e34c52 1
+assets/index.md.CbUAlxfb.js
+  s_b91e2f0c3ab070::t_552c998cb97cff 1,5
+assets/index.md.CbUAlxfb.lean.js
+  s_b91e2f0c3ab070::t_687fc564591ea1 1
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_00af9958c4985b 12,14,21,178
+diagnostics/services.html
+  s_b91e2f0c3ab070::t_4aaa99f9db831d 12,14,21,41-42
+example/index.html
+  s_b91e2f0c3ab070::t_efbd3d278da0d8 12,14,16,21,72-73
+examples/index.html
+  s_b91e2f0c3ab070::t_8c1e1fb5f02790 12,14,21-22
+faq/console.html
+  s_b91e2f0c3ab070::t_145bc0da83b368 12,14,21,26
+faq/controller.html
+  s_b91e2f0c3ab070::t_36973503df4095 12,14,21-22
+faq/development.html
+  s_b91e2f0c3ab070::t_45fd417945186f 12,14,21-22
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_12f1e52166cbb6 12,14,21-22
+faq/index.html
+  s_b91e2f0c3ab070::t_dd117bb7832cd4 12,14,21-22
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_a0bf3eb4094e1b 12,14,21-22
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_fc0d7663c41ccf 12,14,21-22
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_562ae806501a05 12,14,21-22
+firmware.html
+  s_b91e2f0c3ab070::t_35fb8fb36340ba 12,14,21,23
+getting-started/ros2-installation.html
+  s_b91e2f0c3ab070::t_42f1511d424079 1-78
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_e1391d0b401f8a 12,14,21,277
+hardware/audio.html
+  s_b91e2f0c3ab070::t_5a0044788243a0 12,14,21,116
+hardware/components.html
+  s_b91e2f0c3ab070::t_ef81968c816520 12,14,21-22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_95f670f70e73ce 12,14,21,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_25c88665c664d5 12,14,21,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_89d957e04ac170 12,14,21,58
+hashmap.json
+  s_b91e2f0c3ab070::t_c700ae6afca244 1
+index.html
+  s_b91e2f0c3ab070::t_b5aee8f06f6865 12,14,16,21,26
+models/h1/v1.4/manifest.json
+  s_b91e2f0c3ab070::t_2e738913288e2d 117-118
+software/nav.html
+  s_b91e2f0c3ab070::t_dc79ee49be2a52 12,14,21,114
+software/slam.html
+  s_b91e2f0c3ab070::t_44b293f0379a1d 12,14,21,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "d73d7078f717c6bc2c253f757057d907276036df",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
