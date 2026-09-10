@@ -1,0 +1,149 @@
+404.html
+  s_b91e2f0c3ab070::t_59e65071410deb 12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_8c36c6634ccd7f 12,14,21,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_c51832627a0cd2 12,14,16,21,75,162,263
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_d48750715b0102 12,14,21,45
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_c9df360c448d75 12,14,16,21,44,56,232
+advanced/tf.html
+  s_b91e2f0c3ab070::t_af5c0c3d3ceb00 12,14,16,21-27,29-30,32,35-37,39-40,46,49-53
+assets/advanced_face-recognition.md.DTlgfSgf.js
+  s_b91e2f0c3ab070::t_01a2292b27567d 55,142
+assets/advanced_moveit2.md.BcCO2dUI.js
+  s_b91e2f0c3ab070::t_f1f8e174d12bcd 1,24,36,211
+assets/advanced_moveit2.md.BcCO2dUI.lean.js
+  s_b91e2f0c3ab070::t_5eb5afc6a266a4 1
+assets/advanced_tf.md.JCV2uQje.js
+  s_b91e2f0c3ab070::t_a502d8db048ecf 1-7,9-10,12,15-17,19-20,26,29-32
+assets/advanced_tf.md.JCV2uQje.lean.js
+  s_b91e2f0c3ab070::t_d715e1efaf6b7d 1
+assets/app.DWaze-IE.js
+  s_b91e2f0c3ab070::t_2cc04965f2f135 1
+assets/chunks/@localSearchIndexroot.BrYdfXyt.js
+  s_b91e2f0c3ab070::t_48f15b094ef8c8 1
+assets/chunks/VPLocalSearchBox.CAt2zxsV.js
+  s_b91e2f0c3ab070::t_1c4cb03eb14153 1
+assets/chunks/theme.CvQeI1_N.js
+  s_b91e2f0c3ab070::t_e9220794fc6d39 1-2
+assets/diagnostics_index.md.bBAjMwt7.js
+  s_b91e2f0c3ab070::t_b02b89ff4172c5 77
+assets/example_index.md.CRV1QUOk.js
+  s_b91e2f0c3ab070::t_5f7b34210d91aa 1-41
+assets/example_index.md.CRV1QUOk.lean.js
+  s_b91e2f0c3ab070::t_030fa6e74b6b12 1
+assets/examples_index.md.7NFCOxF2.js
+  s_b91e2f0c3ab070::t_8901df35c5dd25 1
+assets/examples_index.md.7NFCOxF2.lean.js
+  s_b91e2f0c3ab070::t_e289a2654e925e 1
+assets/faq_console.md.B5B7Va4t.js
+  s_b91e2f0c3ab070::t_a58e72b8058814 1-5
+assets/faq_console.md.B5B7Va4t.lean.js
+  s_b91e2f0c3ab070::t_2da2760a66d5f5 1
+assets/faq_controller.md.fTg6afq9.js
+  s_b91e2f0c3ab070::t_4c778bca7cd2f4 1
+assets/faq_controller.md.fTg6afq9.lean.js
+  s_b91e2f0c3ab070::t_9ee6b3519240c1 1
+assets/faq_development.md.D6ErAmvg.js
+  s_b91e2f0c3ab070::t_cd878e05370964 1
+assets/faq_development.md.D6ErAmvg.lean.js
+  s_b91e2f0c3ab070::t_2a56a6052b22b0 1
+assets/faq_factory-test.md.Dtxe8oOr.js
+  s_b91e2f0c3ab070::t_12ab6efce6422f 1
+assets/faq_factory-test.md.Dtxe8oOr.lean.js
+  s_b91e2f0c3ab070::t_793276617d15c1 1
+assets/faq_index.md.CaoMmvGy.js
+  s_b91e2f0c3ab070::t_41b2d09160f25a 1
+assets/faq_index.md.CaoMmvGy.lean.js
+  s_b91e2f0c3ab070::t_41b12a77cf71e1 1
+assets/faq_network-ota.md.v2-viOB9.js
+  s_b91e2f0c3ab070::t_8b5e0a597a6c29 1
+assets/faq_network-ota.md.v2-viOB9.lean.js
+  s_b91e2f0c3ab070::t_9dda5117f921fc 1
+assets/faq_power-safety.md.D68KJ8Ur.js
+  s_b91e2f0c3ab070::t_56bd9391a1d584 1
+assets/faq_power-safety.md.D68KJ8Ur.lean.js
+  s_b91e2f0c3ab070::t_a6467cbf0c422d 1
+assets/faq_troubleshooting.md.DC002BlF.js
+  s_b91e2f0c3ab070::t_fe65e6b2d96464 1
+assets/faq_troubleshooting.md.DC002BlF.lean.js
+  s_b91e2f0c3ab070::t_f44a10258d193d 1
+assets/hardware_actuators.md.OUkzeo3c.js
+  s_b91e2f0c3ab070::t_b51988eacbc794 1,16-18,29,126,129-131,133,150,161,256
+assets/hardware_actuators.md.OUkzeo3c.lean.js
+  s_b91e2f0c3ab070::t_6bc623584ac175 1
+assets/hardware_sensors.md.lUPKOdh-.js
+  s_b91e2f0c3ab070::t_a23b3ffb4acf6c 1,20-22,27,37
+assets/hardware_sensors.md.lUPKOdh-.lean.js
+  s_b91e2f0c3ab070::t_9cc97920221702 1
+assets/index.md.CCD8iGvH.js
+  s_b91e2f0c3ab070::t_c318853dcf75ce 1,5-6
+assets/index.md.CCD8iGvH.lean.js
+  s_b91e2f0c3ab070::t_a549a72f744a7d 1
+assets/software_nav.md.BInjOrEa.js
+  s_b91e2f0c3ab070::t_59fd67a63fde7a 22,32,50,54,57,60,63
+assets/software_slam.md.BcP7JCnP.js
+  s_b91e2f0c3ab070::t_167127ba901deb 1,7,17,28,32,35,38,41,44,47,50,53,56,59,62,65,68
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_1ed97581662315 12,14,16,21,97,177-178
+downloads/example/README.md
+  s_b91e2f0c3ab070::t_5d806de371905e 1-169
+example/index.html
+  s_b91e2f0c3ab070::t_7c15d1b6045a1c 1-65
+examples/index.html
+  s_b91e2f0c3ab070::t_6488ac7bfe8346 6,12,14,16,21-22
+faq/console.html
+  s_b91e2f0c3ab070::t_4fbba410596914 1-29
+faq/controller.html
+  s_b91e2f0c3ab070::t_d2a5e628f5a13c 1-25
+faq/development.html
+  s_b91e2f0c3ab070::t_e886b34d833f15 1-25
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_4e8989730a92f6 1-25
+faq/index.html
+  s_b91e2f0c3ab070::t_634cdb13cdce64 1-25
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_802995f994d92b 1-25
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_1d79893b7f7ec4 1-25
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_618096d2288482 1-25
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_1d6e593fe634d8 12,14,16,21,36-38,49,146,149-151,153,170,181,277
+hardware/audio.html
+  s_b91e2f0c3ab070::t_4889ac57efb664 12,14,21,116
+hardware/components.html
+  s_b91e2f0c3ab070::t_a4aaae7a69042d 12,14,21-22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_aa11004a7b223b 12,14,21,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_abab009ef70478 12,14,21,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_1b0b172b8b007f 12,14,16,21,40-42,47,58
+hashmap.json
+  s_b91e2f0c3ab070::t_dde79974409259 1
+index.html
+  s_b91e2f0c3ab070::t_446e31a0106581 12,14,16,21,25-27
+software/nav.html
+  s_b91e2f0c3ab070::t_44d3d8a9e6d069 12,14,16,21,42,52,70,74,77,80,83,114
+software/slam.html
+  s_b91e2f0c3ab070::t_6b0808cf8e3aa8 12,14,16,21,27,37,48,52,55,58,61,64,67,70,73,76,79,82,85,88,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "ee3880e98e62661b5c4b90e98083235fa833b975",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
