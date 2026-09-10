@@ -86,7 +86,7 @@ example/
 | 动作状态反馈 | `/action/status` | `std_msgs/String`(JSON) | `{"action_id","state","progress","fail_reason"}` |
 | 动作停止 | `/action/stop` | `std_msgs/Empty` | 立即停止当前动作 |
 | 左/右臂 MoveJ | `/left_arm/movej` `/right_arm/movej` | `std_msgs/String`(JSON) | `{"joints": [7个弧度], "speed_scale": 1.0}` |
-| 左/右臂 MoveP/MoveL | `/left_arm/movep` `/right_arm/movep` `/left_arm/movel` `/right_arm/movel` | `std_msgs/String`(JSON) | `{"pose": {"position": {"x","y","z"}, "orientation": {"x","y","z","w"}}, "speed_scale": 1.0}`；位姿在**臂模型根系**（URDF 根 link，非躯干 base_link），零位末端约 `(-0.7265, 0, 0.158)` |
+| 左/右臂 MoveP/MoveL | `/left_arm/movep` `/right_arm/movep` `/left_arm/movel` `/right_arm/movel` | `std_msgs/String`(JSON) | `{"pose": {"position": {"x","y","z"}, "orientation": {"x","y","z","w"}}, "speed_scale": 1.0}`；位姿在对应的**臂模型根系**（URDF 根 link，非躯干 `base_link`） |
 | 臂运动结果反馈 | `/arm_diagnostics` | `diagnostic_msgs/DiagnosticStatus` | `name`=left_arm/right_arm，`values` 含 `motion_type`，`message`="motion completed" 表示成功 |
 | 臂运动停止 | `/left_arm/stop` `/right_arm/stop` | `std_msgs/Empty` | 立即停止对应手臂的 MoveJ/MoveP/MoveL |
 | 当前关节角 | `/left_joint_states` `/right_joint_states` | `sensor_msgs/JointState` | `joint1-<l/r>` ~ `joint7-<l/r>`，单位弧度 |
@@ -113,10 +113,21 @@ example/
 
 ### MoveJ / MoveP / MoveL 使用注意
 
+MoveP / MoveL 的目标位姿以对应机械臂的模型根坐标系为参考，左右臂模型根坐标系的轴向不同：
+
+| 机械臂 | +X | +Y | +Z |
+| --- | --- | --- | --- |
+| 左臂 | 向上 | 向前 | 向左 |
+| 右臂 | 向上 | 向后 | 向右 |
+
+整机 `base_link` 坐标系采用 X 轴向前、Y 轴向左、Z 轴向上的约定。如果只换算位移方向，不考虑坐标系原点之间的平移，则左臂满足 `(Δx_base, Δy_base, Δz_base) = (Δy_arm, Δz_arm, Δx_arm)`，右臂满足 `(Δx_base, Δy_base, Δz_base) = (-Δy_arm, -Δz_arm, Δx_arm)`。换算绝对位置时，还需要计入对应臂根相对 `base_link` 的平移。
+
+末端工具坐标系（TCP frame）固定在机械臂末端。各关节角均为 0 时，左臂 TCP 坐标系的 +X 轴向前、+Y 轴向右、+Z 轴向下；右臂 TCP 坐标系的 +X 轴向后、+Y 轴向左、+Z 轴向下。机械臂运动时，TCP 坐标系会随末端姿态一起旋转。目标位置和姿态四元数均以对应的臂模型根坐标系为参考。
+
 - MoveJ 是关节空间运动，只要各关节在限位内即可执行；超限会返回
   `joint_limit_violation`（关节限位见 `armcontrol/config/arm_control_node.yaml`）。
-- MoveP/MoveL 下发的是末端位姿，节点内部需要 IK 逆解成关节角；
-  位姿不可达时返回 `ik_failed`。位姿在臂模型根系下表示。
+- MoveP / MoveL 下发的是末端位姿，节点内部需要通过 IK 将其转换为关节角；
+  位姿不可达时返回 `ik_failed`。
 - MoveL 额外要求**整条直线路径逐点 IK 有解**，比 MoveP 苛刻：臂完全伸直
   （零位）处于奇异位形，从零位直接做长直线会 `ik_failed`，需要先 MoveJ
   到收拢姿态再做直线（movel_demo 即按此编排）。
