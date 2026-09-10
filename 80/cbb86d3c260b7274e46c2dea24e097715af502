@@ -1,0 +1,101 @@
+404.html
+  s_b91e2f0c3ab070::t_ca305972356eab 12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_a58c0f1843d870 12,14,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_9a5756228b34dc 12,14,263
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_a175fb9ece9766 12,14,45
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_11bc336245a85f 12,14,232
+advanced/tf.html
+  s_b91e2f0c3ab070::t_a3581cc4dd2537 12,14,16,21,53
+assets/advanced_tf.md.C2j1RQQw.js
+  s_b91e2f0c3ab070::t_d32a7d65ca532d 1
+assets/app.X-wDSFKt.js
+  s_b91e2f0c3ab070::t_ad18a13a5cb728 1
+assets/chunks/@localSearchIndexroot.BU6Bxalc.js
+  s_b91e2f0c3ab070::t_eb348c4f4cd4b6 1
+assets/chunks/VPLocalSearchBox.BwA4gv93.js
+  s_b91e2f0c3ab070::t_c03bf56a132b5d 1
+assets/chunks/theme.D-2HNHLR.js
+  s_b91e2f0c3ab070::t_50547dd05efe3f 1-2
+assets/example_index.md.B0U14ThT.js
+  s_b91e2f0c3ab070::t_ee454dd2a0d99c 1,22,52
+assets/example_index.md.B0U14ThT.lean.js
+  s_b91e2f0c3ab070::t_7f17d92099ce38 1
+assets/faq_development.md.B0n_Sdel.js
+  s_b91e2f0c3ab070::t_7ad56bc975a72b 1
+assets/faq_development.md.B0n_Sdel.lean.js
+  s_b91e2f0c3ab070::t_87fcefc33261c8 1
+assets/hardware_actuators.md.CmOpWmDi.js
+  s_b91e2f0c3ab070::t_5cf07a781f6073 52,58,256
+assets/hardware_actuators.md.CmOpWmDi.lean.js
+  s_b91e2f0c3ab070::t_162e2394918e9d 1
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_492a190b32d91e 12,14,178
+diagnostics/services.html
+  s_b91e2f0c3ab070::t_34d486329f6146 12,14,42
+downloads/example/README.md
+  s_b91e2f0c3ab070::t_06a35ebe5dfdf0 89,116-126,129-130
+example/index.html
+  s_b91e2f0c3ab070::t_5dde46e5a17f74 12,14,16,42,73
+examples/index.html
+  s_b91e2f0c3ab070::t_f6aad21c295894 12,14,22
+faq/console.html
+  s_b91e2f0c3ab070::t_ad4dd2fef96983 12,14,26
+faq/controller.html
+  s_b91e2f0c3ab070::t_b3655582dcc4cd 12,14,22
+faq/development.html
+  s_b91e2f0c3ab070::t_34ba6cc1b7c4bc 12,14,16,21-22
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_e7366186c12939 12,14,22
+faq/index.html
+  s_b91e2f0c3ab070::t_cbacec105bd817 12,14,22
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_d148fdfe0e69be 12,14,22
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_3b2d228b331595 12,14,22
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_5997e680bfafde 12,14,22
+firmware.html
+  s_b91e2f0c3ab070::t_e183543973caeb 12,14,23
+getting-started/ros2-installation.html
+  s_b91e2f0c3ab070::t_57dd57a455b322 12,14,75
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_8e6dc1452a78fb 12,14,16,72,78,277
+hardware/audio.html
+  s_b91e2f0c3ab070::t_795f0ab25f1d99 12,14,116
+hardware/components.html
+  s_b91e2f0c3ab070::t_1d9c612a5a1b9d 12,14,22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_47ad2c212e708c 12,14,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_8e49ab1ab8ea27 12,14,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_dc3c723fed6a61 12,14,58
+hashmap.json
+  s_b91e2f0c3ab070::t_21a894e2eab6cb 1
+index.html
+  s_b91e2f0c3ab070::t_06e30b52df1f8c 12,14,26
+software/nav.html
+  s_b91e2f0c3ab070::t_a7b91f1a9169f0 12,14,114
+software/slam.html
+  s_b91e2f0c3ab070::t_08489a5ec44029 12,14,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "80cbb86d3c260b7274e46c2dea24e097715af502",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
