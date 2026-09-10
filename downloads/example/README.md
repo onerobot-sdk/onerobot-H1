@@ -10,6 +10,58 @@ Demo 的定位是**帮你写好话题发布/订阅链路**，让使用者快速�
 - **原生参数**：`--pitch`/`--yaw`、`--joints`、`--up/--down` 等直接下发话题
   原生的控制量（角度/关节/速度），demo 只负责度→弧度换算与发布。
 
+## 电脑端 ROS 2 与 DDS 配置
+
+H1 机器人使用 ROS 2 Jazzy，DDS 实现为 **Cyclone DDS（`rmw_cyclonedds_cpp`）**。
+在调试电脑上运行示例前，先连接机器人所在网络，并在运行 Python 示例、`ros2` 命令或 RViz2 的终端中配置相同的 RMW 实现。
+
+### 首次安装与当前终端配置
+
+以下命令在已安装 ROS 2 Jazzy 的 Ubuntu 电脑上执行：
+
+```bash
+# 首次使用时安装 Cyclone DDS 的 ROS 2 支持包
+sudo apt install ros-jazzy-rmw-cyclonedds-cpp
+
+source /opt/ros/jazzy/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+# 确认包已安装、当前终端选择正确
+ros2 pkg prefix rmw_cyclonedds_cpp
+echo "$RMW_IMPLEMENTATION"
+```
+
+`echo` 应输出 `rmw_cyclonedds_cpp`。当前默认使用方式**不需要单独设置 `ROS_DOMAIN_ID`**。
+机器人内部的 `CYCLONEDDS_URI` 和网卡配置由固件管理，不要把板端配置路径或网卡名直接复制到电脑。
+
+### Bash 自动生效
+
+如希望新终端自动使用该配置，在电脑的 `~/.bashrc` 中添加下面两行；已有相同配置时不用重复添加。
+将 RMW 设置放在 ROS 环境加载语句之后，并避免后续配置覆盖它：
+
+```bash
+source /opt/ros/jazzy/setup.bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```
+
+保存后执行 `source ~/.bashrc`，或重新打开 Bash 终端。IDE、容器和其他 Shell 中启动的程序也需要加载对应环境。
+
+### 切换 DDS 后检查通信
+
+如果此前使用过其他 RMW 实现，先退出电脑上旧的示例或 RViz2，重新加载环境，再重启电脑上的 ROS 2 CLI daemon：
+
+```bash
+ros2 daemon stop
+ros2 daemon start
+ros2 topic list
+```
+
+确认能看到机器人话题（例如 `/device_info`），再运行下文示例。
+若看不到，依次核对电脑与机器人的网络连通性、当前 RMW 配置、机器人对应服务是否运行，以及防火墙/多网卡对 DDS 发现的影响。
+daemon 重启只影响电脑端命令行发现服务，不会重启机器人进程。
+
+参考：[ROS 2 官方 RMW 配置说明](https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html)。
+
 ## 目录结构
 
 ```
