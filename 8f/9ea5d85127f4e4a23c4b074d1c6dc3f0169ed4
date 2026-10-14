@@ -1,0 +1,117 @@
+404.html
+  s_b91e2f0c3ab070::t_0819b4993b4bef 12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_9df22cb4ed4367 12,14,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_1d35027cd1dac7 12,14,16,21-28,82,169-170,182,224,271
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_5fe33c323bc8d6 12,14,16,21-22,25,34,45-46
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_d79db76748c1d2 12,14,16,224,227-228,231-251
+advanced/tf.html
+  s_b91e2f0c3ab070::t_8e61c34c17a2de 12,14,53
+assets/advanced_face-recognition.md.BURui5t7.js
+  s_b91e2f0c3ab070::t_bd1981855b1ca9 1-8,62,149-150,162,204,250
+assets/advanced_face-recognition.md.BURui5t7.lean.js
+  s_b91e2f0c3ab070::t_7a5f95ef0fc905 1
+assets/advanced_gesture-recognition.md.BxVh9fKx.js
+  s_b91e2f0c3ab070::t_d9eb490476f39a 1-2,5,14,25
+assets/advanced_gesture-recognition.md.BxVh9fKx.lean.js
+  s_b91e2f0c3ab070::t_b37d105fbca3ad 1
+assets/advanced_moveit2.md.BhjV6OyX.js
+  s_b91e2f0c3ab070::t_e49c06a0e0e643 1,204,207-208,211-230
+assets/advanced_moveit2.md.BhjV6OyX.lean.js
+  s_b91e2f0c3ab070::t_ac89a4d86a6ff4 1
+assets/app.CQmh5xNJ.js
+  s_b91e2f0c3ab070::t_d4bb91a521b79e 1
+assets/chunks/@localSearchIndexroot.BXmZO5uX.js
+  s_b91e2f0c3ab070::t_167a0d3bd1c0a0 1
+assets/chunks/VPLocalSearchBox.CTBTLkd3.js
+  s_b91e2f0c3ab070::t_8f64857654f6cc 1
+assets/chunks/theme.B3zMqfz8.js
+  s_b91e2f0c3ab070::t_91814a657efb80 1-2
+assets/diagnostics_services.md.B-XjioLZ.js
+  s_b91e2f0c3ab070::t_a724f8cb0d8274 1-2,22
+assets/diagnostics_services.md.B-XjioLZ.lean.js
+  s_b91e2f0c3ab070::t_4eea658e0aec39 1
+assets/examples_index.md.BMJ2qJ7l.js
+  s_b91e2f0c3ab070::t_055c41041f08d6 1
+assets/examples_index.md.BMJ2qJ7l.lean.js
+  s_b91e2f0c3ab070::t_9c156b67061778 1
+assets/faq_development.md.BsIbpCx2.js
+  s_b91e2f0c3ab070::t_32e4402c825e74 1
+assets/hardware_audio.md.CT9cDlMf.js
+  s_b91e2f0c3ab070::t_672e958aa032c5 1-16,110-120
+assets/hardware_audio.md.CT9cDlMf.lean.js
+  s_b91e2f0c3ab070::t_a55149f42a6269 1
+assets/index.md.D7rqvyCz.js
+  s_b91e2f0c3ab070::t_66b5987c96c650 1,5
+assets/index.md.D7rqvyCz.lean.js
+  s_b91e2f0c3ab070::t_b4efdda2905b47 1
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_f3192ebe7b4a03 12,14,184
+diagnostics/services.html
+  s_b91e2f0c3ab070::t_3d381c189f7aeb 12,14,16,21-22,43
+example/index.html
+  s_b91e2f0c3ab070::t_3157c7000b5f71 12,14,73
+examples/index.html
+  s_b91e2f0c3ab070::t_147411ff6adbbe 12,14,16,21-22
+faq/console.html
+  s_b91e2f0c3ab070::t_4cf13fc15fbe59 12,14,26
+faq/controller.html
+  s_b91e2f0c3ab070::t_a4ec72ae65f0fc 12,14,22
+faq/development.html
+  s_b91e2f0c3ab070::t_69152f113469fc 12,14,16,21-22
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_504e67703ec229 12,14,22
+faq/index.html
+  s_b91e2f0c3ab070::t_e20f320272a253 12,14,22
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_af0acdce668ea3 12,14,22
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_247f2c090c5903 12,14,22
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_aebb86e22f8e7e 12,14,22
+firmware.html
+  s_b91e2f0c3ab070::t_c7e09f6c047b2a 12,14,23
+getting-started/ros2-installation.html
+  s_b91e2f0c3ab070::t_dca1d2f8f70666 12,14,75
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_2efa648f38be1b 12,14,277
+hardware/audio.html
+  s_b91e2f0c3ab070::t_84902c019d09bb 12,14,16,21-36,130-141
+hardware/components.html
+  s_b91e2f0c3ab070::t_6bb71a3e170846 12,14,22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_d0a11e45798c61 12,14,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_2182e2ef2e95c7 12,14,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_c88d60ec34d0fe 12,14,58
+hashmap.json
+  s_b91e2f0c3ab070::t_429f153abdcebf 1
+index.html
+  s_b91e2f0c3ab070::t_affce8ffa165d2 12,14,16,21,26
+software/lerobot.html
+  s_b91e2f0c3ab070::t_d471ca9dbbc89d 12,14,162
+software/nav.html
+  s_b91e2f0c3ab070::t_cad93eeb7a51b5 12,14,114
+software/slam.html
+  s_b91e2f0c3ab070::t_ddbf7e0b0687de 12,14,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8f9ea5d85127f4e4a23c4b074d1c6dc3f0169ed4",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
