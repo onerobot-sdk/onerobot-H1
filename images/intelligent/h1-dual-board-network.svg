@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">H1 智能版双板连接与共享网络</title>
+  <desc id="desc">开发电脑网线直连 RK3576 用于本地调试；主控接入可上网的有线网络后，通过内部路由为 NVIDIA 计算板共享网络。RK3576 通过 USB 3.0 转网口模块和千兆网线连接计算板。内部网口 Orin0 提供 DHCP，计算板使用实际分配的地址。登录顺序为开发电脑、RK3576、NVIDIA 计算板。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8Z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="960" height="430" rx="16" fill="#f8fafc"/>
+  <g font-family="sans-serif" fill="#0f172a">
+    <text x="32" y="43" font-size="24" font-weight="700">H1 智能版 · 双板网络与登录路径</text>
+    <text x="32" y="72" font-size="17" fill="#475569">电脑直连用于调试；主控接入可上网的有线网络后，计算板共享网络。</text>
+    <rect x="24" y="96" width="224" height="170" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="136" y="132" font-size="21" font-weight="700" text-anchor="middle">外部连接</text>
+    <text x="136" y="167" font-size="17" text-anchor="middle">开发电脑：直连调试</text>
+    <text x="136" y="196" font-size="17" text-anchor="middle">联网路由器：提供外网</text>
+    <text x="136" y="238" font-size="16" text-anchor="middle" fill="#475569">按需要选择接入方式</text>
+    <rect x="350" y="96" width="260" height="170" rx="12" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/>
+    <text x="480" y="132" font-size="23" font-weight="700" text-anchor="middle">RK3576 主控板</text>
+    <text x="480" y="167" font-size="17" text-anchor="middle">对外网口：直连 10.42.0.2</text>
+    <text x="480" y="196" font-size="17" text-anchor="middle">内部 Orin0：DHCP / 路由</text>
+    <text x="480" y="238" font-size="17" text-anchor="middle" fill="#475569">登录用户：wlab</text>
+    <rect x="712" y="96" width="224" height="170" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+    <text x="824" y="132" font-size="22" font-weight="700" text-anchor="middle">NVIDIA 计算板</text>
+    <text x="824" y="167" font-size="18" text-anchor="middle">DHCP 获取 IP</text>
+    <text x="824" y="196" font-size="17" text-anchor="middle">通过主控共享网络</text>
+    <text x="824" y="238" font-size="17" text-anchor="middle" fill="#475569">登录用户：nvidia</text>
+    <path d="M258 181 H338" fill="none" stroke="#64748b" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="298" y="158" text-anchor="middle" font-size="17">① 网线</text>
+    <path d="M620 181 H700" fill="none" stroke="#64748b" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="660" y="158" text-anchor="middle" font-size="17">② 内网</text>
+    <text x="32" y="302" font-size="17" fill="#475569">② 内部连接：USB 3.0 → USB 转网口模块 → 千兆网线 → NVIDIA 计算板</text>
+    <path d="M32 324 H928" stroke="#cbd5e1"/>
+    <text x="32" y="358" font-size="19" font-weight="700">登录顺序：电脑 → RK3576（wlab）→ NVIDIA 计算板（nvidia）</text>
+    <text x="32" y="393" font-size="17" fill="#475569">接入路由器时使用 H1 的实际 IP；计算板的 IP 需先在 RK3576 上查询。</text>
+  </g>
+</svg>

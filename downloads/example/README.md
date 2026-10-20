@@ -1,4 +1,4 @@
-# 机器人控制 Demo
+# 标准版 Python 控制示例
 
 本目录提供一组通过 ROS 2 话题控制 H1 机器人的 Python 示例脚本，每个 demo
 一个文件，位于 `demos/` 目录。
@@ -10,9 +10,22 @@ Demo 的定位是**帮你写好话题发布/订阅链路**，让使用者快速�
 - **原生参数**：`--pitch`/`--yaw`、`--joints`、`--up/--down` 等直接下发话题
   原生的控制量（角度/关节/速度），demo 只负责度→弧度换算与发布。
 
+## 获取示例
+
+本组示例归类为**标准版**，使用 Cyclone DDS。智能版采用原生 Zenoh，当前没有声明这些动作已完成智能版验证；请先查阅[智能版连接与使用](https://onerobot-sdk.github.io/onerobot-H1/getting-started/intelligent.html)。
+
+通过 Git 获取仓库后进入本目录：
+
+```bash
+git clone https://github.com/onerobot-sdk/h1-examples.git
+cd h1-examples/standard/python-control
+```
+
+也可以在 GitHub 仓库选择 **Code → Download ZIP**，解压后进入 `standard/python-control/`。开发手册保留的兼容下载包解压后为 `example/`，进入该目录即可；这两种方式均在本 README 所在目录执行后续 `cd demos`。
+
 ## 电脑端 ROS 2 与 DDS 配置
 
-H1 机器人使用 ROS 2 Jazzy，DDS 实现为 **Cyclone DDS（`rmw_cyclonedds_cpp`）**。
+H1 标准版当前使用 ROS 2 Jazzy，DDS 实现为 **Cyclone DDS（`rmw_cyclonedds_cpp`）**。
 在调试电脑上运行示例前，先连接机器人所在网络，并在运行 Python 示例、`ros2` 命令或 RViz2 的终端中配置相同的 RMW 实现。
 
 ### 首次安装与当前终端配置
@@ -65,7 +78,7 @@ daemon 重启只影响电脑端命令行发现服务，不会重启机器人进�
 ## 目录结构
 
 ```
-example/
+python-control/
 ├── README.md                # 本文档
 └── demos/                   # 每个 demo 一个 Python 文件
     ├── arm_action_demo.py   # 双臂预置动作：左臂挥手 -> 右手招手
@@ -141,8 +154,8 @@ MoveP / MoveL 的目标位姿以对应机械臂的模型根坐标系为参考，
 ### 1) 双臂预置动作（arm_action_demo）
 
 ```bash
-# 从 SDK 仓库根目录进入示例目录
-cd example/demos
+# 先进入本 README 所在目录，再进入 demos/
+cd demos
 
 python3 arm_action_demo.py                      # 默认：左臂挥手 -> 右手招手
 python3 arm_action_demo.py wave                 # 只左臂挥手
@@ -227,6 +240,6 @@ python3 light_control_demo.py --off             # 关闭所有灯
   （`--speed-scale` 取较小值、`--linear`/`--angular` 取较小值）下验证。
 - 底盘轮速在 `body_control_node` 中默认限速 0.35 m/s，超过会自动缩放。
 - 升降/头部命令受硬件限位保护，但仍有必要先在安全区域测试。
-- 手臂 demo 失败或 Ctrl+C 时会自动发布 `/<side>_arm/stop` 停止当前运动；
+- MoveJ / MoveP / MoveL demo 失败或 Ctrl+C 时会自动发布 `/<side>_arm/stop` 停止当前运动；
   也可手动发布 `/action/stop`（Empty）停止预置动作、
   `/left_arm/stop` / `/right_arm/stop` 停止单臂运动。

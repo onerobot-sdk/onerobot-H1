@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 960" role="img" aria-labelledby="title desc">
+  <title id="title">H1 智能版洗衣示例场景尺寸</title>
+  <desc id="desc">房间横向和纵向各在三个位置量测，均为3米正负0.5厘米。左边界到沙发右边缘72至72.25厘米，沙发下边缘到房间下边界35厘米正负0.25厘米。上边界到洗衣机上边缘40厘米正负0.25厘米，洗衣机左边缘到房间右边界60厘米正负0.25厘米。原点仅作参考，不需要特意布置。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#bb4c45"/>
+    </marker>
+    <style>
+      text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#27334a;font-size:19px}
+      .measure{stroke:#bb4c45;stroke-width:2;stroke-dasharray:3 6;marker-start:url(#arrow);marker-end:url(#arrow)}
+      .label{paint-order:stroke;stroke:#f2f5fb;stroke-width:9px;stroke-linejoin:round;text-anchor:middle}
+      .small{font-size:16px}
+    </style>
+  </defs>
+  <rect width="980" height="960" rx="16" fill="#fff"/>
+  <text x="490" y="32" text-anchor="middle" font-size="24" font-weight="600">洗衣示例 · 场景量测示意</text>
+  <rect x="70" y="60" width="800" height="800" rx="10" fill="#f2f5fb" stroke="#34445d" stroke-width="3"/>
+  <rect x="70" y="460" width="193" height="307" fill="#e4eaf5" stroke="#34445d" stroke-width="3"/>
+  <rect x="710" y="167" width="150" height="150" fill="#e4eaf5" stroke="#34445d" stroke-width="3"/>
+  <text x="166" y="621" text-anchor="middle" font-size="32">沙发</text>
+  <text x="785" y="252" text-anchor="middle" font-size="29">洗衣机</text>
+  <path class="measure" d="M80 110H860"/>
+  <path class="measure" d="M80 410H860"/>
+  <path class="measure" d="M80 830H860"/>
+  <text class="label" x="480" y="106">3 m ± 0.5 cm</text>
+  <text class="label" x="570" y="406">3 m ± 0.5 cm</text>
+  <text class="label" x="480" y="826">3 m ± 0.5 cm</text>
+  <path class="measure" d="M110 70V850"/>
+  <path class="measure" d="M480 70V850"/>
+  <path class="measure" d="M840 70V850"/>
+  <text class="label" x="151" y="310">3 m ± 0.5 cm</text>
+  <text class="label" x="480" y="352">3 m ± 0.5 cm</text>
+  <text class="label" x="810" y="600">3 m ± 0.5 cm</text>
+  <path class="measure" d="M80 445H253"/>
+  <text class="label" x="166" y="438">72～72.25 cm</text>
+  <path class="measure" d="M277 777V850"/>
+  <text class="label" x="360" y="791">35 cm ± 0.25 cm</text>
+  <path class="measure" d="M785 70V157"/>
+  <text class="label" x="674" y="151">40 cm ± 0.25 cm</text>
+  <path class="measure" d="M720 347H860"/>
+  <path d="M710 325V365" stroke="#34445d" stroke-dasharray="3 5" stroke-width="2"/>
+  <text class="label" x="785" y="378">60 cm ± 0.25 cm</text>
+  <circle cx="620" cy="694" r="74" fill="#ece8f8" stroke="#68608c" stroke-width="2"/>
+  <text x="620" y="672" text-anchor="middle">
+    <tspan x="620">原点位置参考</tspan>
+    <tspan x="620" dy="27">算法预设</tspan>
+    <tspan x="620" dy="27">不需特意布置</tspan>
+  </text>
+  <text class="small" x="70" y="902">横向、纵向分别在图示的三个位置量测，按箭头端点核对尺寸。</text>
+  <text class="small" x="70" y="932">示意图不用于补算未标尺寸；60 cm 测量的是洗衣机左边缘至房间右边界。</text>
+</svg>
