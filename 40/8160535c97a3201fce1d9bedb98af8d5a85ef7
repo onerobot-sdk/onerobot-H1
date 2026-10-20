@@ -1,0 +1,127 @@
+404.html
+  s_b91e2f0c3ab070::t_cd7691f54d5496 6,9,12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_71a1335a590202 6-7,9,12,14,21,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_f84d79d35f878a 6-7,9,12,14,21,271
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_7137152bb8c4e2 6-7,9,12,14,21,46
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_5c50e23e3d3817 6-7,9,12,14,16,21,23,29-32,88,706
+advanced/tf.html
+  s_b91e2f0c3ab070::t_dab44548ce210a 6-7,9,12,14,21,53
+assets/advanced_moveit2.md.8P-w6en3.js
+  s_b91e2f0c3ab070::t_74c242ab86114d 1,7-10,66,683
+assets/advanced_moveit2.md.8P-w6en3.lean.js
+  s_b91e2f0c3ab070::t_f96e27009f45d7 1
+assets/app.D0OKZW0X.js
+  s_b91e2f0c3ab070::t_4178b2bd20a4d9 1
+assets/chunks/@localSearchIndexroot.0uHh_1US.js
+  s_b91e2f0c3ab070::t_1b35b443aa8247 1
+assets/chunks/VPLocalSearchBox.DZyMr4ja.js
+  s_b91e2f0c3ab070::t_aba0d63c34c72c 1
+assets/chunks/theme.B5G4FV1a.js
+  s_b91e2f0c3ab070::t_78d7f009f04bbc 1-2
+assets/example_index.md.Dv7cXiuD.js
+  s_b91e2f0c3ab070::t_de2a9f25acc53e 1-3,14,24-25,54
+assets/example_index.md.Dv7cXiuD.lean.js
+  s_b91e2f0c3ab070::t_63b2f2e8ff6669 1
+assets/example_laundry.md.DOho89iQ.js
+  s_b91e2f0c3ab070::t_5f9aceaf2c6aaf 1-15
+assets/example_laundry.md.DOho89iQ.lean.js
+  s_b91e2f0c3ab070::t_77d19937178182 1
+assets/examples_index.md.1I-0f21-.js
+  s_b91e2f0c3ab070::t_f27d2202925154 1
+assets/getting-started_editions.md.DEY7NrN5.js
+  s_b91e2f0c3ab070::t_237068247ee1fd 1
+assets/getting-started_editions.md.DEY7NrN5.lean.js
+  s_b91e2f0c3ab070::t_0cb4a46e340843 1
+assets/getting-started_intelligent.md.C3DhPIfr.js
+  s_b91e2f0c3ab070::t_75b65370de25fb 1-58
+assets/getting-started_intelligent.md.C3DhPIfr.lean.js
+  s_b91e2f0c3ab070::t_88c271aa8c5254 1
+assets/index.md.DEudnNkd.js
+  s_b91e2f0c3ab070::t_c631c1810e39be 1,5
+assets/index.md.DEudnNkd.lean.js
+  s_b91e2f0c3ab070::t_cd5fbfdee08a8e 1
+assets/style.DT_h5FGG.css
+  s_b91e2f0c3ab070::t_0469cc786678ea 1
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_ab46231359edcf 6-7,9,12,14,21,184
+diagnostics/services.html
+  s_b91e2f0c3ab070::t_99562456a9b8c4 6-7,9,12,14,21,42-43
+downloads/example/README.md
+  s_b91e2f0c3ab070::t_261565fa9e1985 1,13-25,28,81,157-158,243
+example/index.html
+  s_b91e2f0c3ab070::t_d2ce89d397038a 6-7,9,12,14,16,21-23,34,44-45,74-75
+example/laundry.html
+  s_b91e2f0c3ab070::t_e67fd30ca8fac5 1-39
+examples/index.html
+  s_b91e2f0c3ab070::t_e9d8a0948f438a 6-7,9,12,14,16,21-22
+faq/console.html
+  s_b91e2f0c3ab070::t_df96f4f99f4bb1 6-7,9,12,14,21,26
+faq/controller.html
+  s_b91e2f0c3ab070::t_261a562da912ae 6-7,9,12,14,21-22
+faq/development.html
+  s_b91e2f0c3ab070::t_fcbd7a94f1babb 6-7,9,12,14,21-22
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_0203d99b2853f7 6-7,9,12,14,21-22
+faq/index.html
+  s_b91e2f0c3ab070::t_78848ee2370a49 6-7,9,12,14,21-22
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_f0086adf5445ea 6-7,9,12,14,21-22
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_ba9bcb8d1e5d39 6-7,9,12,14,21-22
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_c499c2b6a4f37e 6-7,9,12,14,21-22
+firmware.html
+  s_b91e2f0c3ab070::t_ccc60967528fd0 6-7,9,12,14,21,23
+getting-started/editions.html
+  s_b91e2f0c3ab070::t_b7022273c40d8d 1-25
+getting-started/intelligent.html
+  s_b91e2f0c3ab070::t_6140081a884880 1-82
+getting-started/ros2-installation.html
+  s_b91e2f0c3ab070::t_7035089ad90dfe 6-7,9,12,14,21,74-75
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_9020a7b0c3b98e 6-7,9,12,14,21,299
+hardware/audio.html
+  s_b91e2f0c3ab070::t_6b965050d73b9c 6-7,9,12,14,21,141
+hardware/components.html
+  s_b91e2f0c3ab070::t_cd6b258ae08ef6 6-7,9,12,14,21-22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_935079e1d49006 6-7,9,12,14,21,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_03899691c5ffa8 6-7,9,12,14,21,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_0dce02ab422ec9 6-7,9,12,14,21,58
+hashmap.json
+  s_b91e2f0c3ab070::t_8505814c5ce8ae 1
+images/intelligent/h1-dual-board-network.svg
+  s_b91e2f0c3ab070::t_5d596cf10b16c7 1-35
+images/intelligent/laundry-scene.svg
+  s_b91e2f0c3ab070::t_9c261eb68c1d02 1-51
+index.html
+  s_b91e2f0c3ab070::t_e4836619ebf75b 6-7,9,12,14,16,21,26
+software/lerobot.html
+  s_b91e2f0c3ab070::t_e75baadd7aac51 6-7,9,12,14,21,162
+software/nav.html
+  s_b91e2f0c3ab070::t_be3796ba96bff2 6-7,9,12,14,21,114
+software/slam.html
+  s_b91e2f0c3ab070::t_fc0c72807285dd 6-7,9,12,14,21,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "408160535c97a3201fce1d9bedb98af8d5a85ef7",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
