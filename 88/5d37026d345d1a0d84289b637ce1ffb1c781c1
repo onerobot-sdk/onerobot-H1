@@ -1,0 +1,99 @@
+404.html
+  s_b91e2f0c3ab070::t_c66ac808545da4 12,19
+advanced/actions.html
+  s_b91e2f0c3ab070::t_6c7b7571d5c157 12,14,97
+advanced/face-recognition.html
+  s_b91e2f0c3ab070::t_346b0bc14284ff 12,14,271
+advanced/gesture-recognition.html
+  s_b91e2f0c3ab070::t_58c0a4d93405c3 12,14,46
+advanced/moveit2.html
+  s_b91e2f0c3ab070::t_3b04d74c6df838 12,14,706
+advanced/tf.html
+  s_b91e2f0c3ab070::t_251a7a837a0a98 12,14,53
+assets/app.D0YDQMtD.js
+  s_b91e2f0c3ab070::t_6f89109e2765a3 1
+assets/chunks/@localSearchIndexroot.BxWPBxPU.js
+  s_b91e2f0c3ab070::t_5e536675b999de 1
+assets/chunks/VPLocalSearchBox.Bmkwa-59.js
+  s_b91e2f0c3ab070::t_db683a60a001d4 1
+assets/chunks/theme.C4ifA1iw.js
+  s_b91e2f0c3ab070::t_50cf2b2d8c324e 1-2
+assets/getting-started_intelligent.md.DVuSP-NY.js
+  s_b91e2f0c3ab070::t_0270d2ebc5b9f6 1-6,9,11-60,109-110
+assets/getting-started_intelligent.md.DVuSP-NY.lean.js
+  s_b91e2f0c3ab070::t_f47ad9546f2e60 1
+diagnostics/index.html
+  s_b91e2f0c3ab070::t_2ffa9edb0fade1 12,14,184
+diagnostics/services.html
+  s_b91e2f0c3ab070::t_bb1bf320d5b8a9 12,14,43
+example/index.html
+  s_b91e2f0c3ab070::t_f15153f338324f 12,14,75
+example/laundry.html
+  s_b91e2f0c3ab070::t_5fc7bd08f0dfb5 12,14,36
+examples/index.html
+  s_b91e2f0c3ab070::t_fb8cd2a6dcc05c 12,14,22
+faq/console.html
+  s_b91e2f0c3ab070::t_2f4eca36463486 12,14,26
+faq/controller.html
+  s_b91e2f0c3ab070::t_69bd5806b8eb13 12,14,22
+faq/development.html
+  s_b91e2f0c3ab070::t_824aa09a7428d1 12,14,22
+faq/factory-test.html
+  s_b91e2f0c3ab070::t_23492edf1c6248 12,14,22
+faq/index.html
+  s_b91e2f0c3ab070::t_2bf6568059baed 12,14,22
+faq/network-ota.html
+  s_b91e2f0c3ab070::t_6a8117c1a86195 12,14,22
+faq/power-safety.html
+  s_b91e2f0c3ab070::t_b66720890c9fb3 12,14,22
+faq/troubleshooting.html
+  s_b91e2f0c3ab070::t_62f60c1fbdcebc 12,14,22
+firmware.html
+  s_b91e2f0c3ab070::t_3fccfe73682f0b 12,14,23
+getting-started/editions.html
+  s_b91e2f0c3ab070::t_04a1ae7958595f 12,14,22
+getting-started/intelligent.html
+  s_b91e2f0c3ab070::t_cb6dbd888fe9a1 12,14,16,21-26,29,31-80,129,131
+getting-started/ros2-installation.html
+  s_b91e2f0c3ab070::t_17fe88a591719a 12,14,75
+hardware/actuators.html
+  s_b91e2f0c3ab070::t_a88b25702e181f 12,14,299
+hardware/audio.html
+  s_b91e2f0c3ab070::t_67258b800e5c69 12,14,141
+hardware/components.html
+  s_b91e2f0c3ab070::t_e586f1d75972bc 12,14,22
+hardware/eyes.html
+  s_b91e2f0c3ab070::t_e04f49ba23a547 12,14,102
+hardware/robot-model.html
+  s_b91e2f0c3ab070::t_607e3590819f0e 12,14,27
+hardware/sensors.html
+  s_b91e2f0c3ab070::t_15759402b27c6f 12,14,58
+hashmap.json
+  s_b91e2f0c3ab070::t_4f106ddf46e640 1
+images/intelligent/h1-dual-board-network.svg
+  s_b91e2f0c3ab070::t_3bcee50955fdd3 3,10,19
+index.html
+  s_b91e2f0c3ab070::t_5b955c2d421e74 12,14,26
+software/lerobot.html
+  s_b91e2f0c3ab070::t_b119c01ad4b3e0 12,14,162
+software/nav.html
+  s_b91e2f0c3ab070::t_e99f31b6357956 12,14,114
+software/slam.html
+  s_b91e2f0c3ab070::t_f3e0839f0af3f3 12,14,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "885d37026d345d1a0d84289b637ce1ffb1c781c1",
+  "prompts": {},
+  "sessions": {
+    "s_b91e2f0c3ab070": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08008-ee85-7691-9366-65b6e1772b6b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
