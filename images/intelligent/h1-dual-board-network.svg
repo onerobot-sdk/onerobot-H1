@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
   <title id="title">H1 智能版双板连接与共享网络</title>
-  <desc id="desc">开发电脑网线直连 RK3576 用于本地调试；主控接入可上网的有线网络并完成 NAT、DHCP 网关和 DNS 配置后，为 NVIDIA 计算板共享网络。RK3576 通过 USB 3.0 转网口模块和千兆网线连接计算板。内部网口提供 DHCP，网口名称和计算板地址以设备实际配置为准。登录顺序为开发电脑、RK3576、NVIDIA 计算板。</desc>
+  <desc id="desc">开发电脑网线直连 RK3576 用于本地调试；主控接入可上网的有线网络后，NVIDIA 计算板通过主控共享网络。RK3576 通过 USB 3.0 转网口模块和千兆网线连接计算板。内部网口提供 DHCP，网口名称和计算板地址以设备实际配置为准。登录顺序为开发电脑、RK3576、NVIDIA 计算板。</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8Z" fill="#64748b"/></marker>
   </defs>
   <rect width="960" height="430" rx="16" fill="#f8fafc"/>
   <g font-family="sans-serif" fill="#0f172a">
     <text x="32" y="43" font-size="24" font-weight="700">H1 智能版 · 双板网络与登录路径</text>
-    <text x="32" y="72" font-size="17" fill="#475569">电脑直连用于调试；主控有线联网并完成 NAT 配置后，计算板共享网络。</text>
+    <text x="32" y="72" font-size="17" fill="#475569">电脑直连用于调试；主控有线联网后，计算板通过主控共享网络。</text>
     <rect x="24" y="96" width="224" height="170" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
     <text x="136" y="132" font-size="21" font-weight="700" text-anchor="middle">外部连接</text>
     <text x="136" y="167" font-size="17" text-anchor="middle">开发电脑：直连调试</text>
