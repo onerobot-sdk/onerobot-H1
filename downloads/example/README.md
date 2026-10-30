@@ -12,7 +12,7 @@ Demo 的定位是**帮你写好话题发布/订阅链路**，让使用者快速�
 
 ## 获取示例
 
-本组示例归类为**标准版**，使用 Cyclone DDS。智能版采用原生 Zenoh，当前没有声明这些动作已完成智能版验证；请先查阅[智能版连接与使用](https://onerobot-sdk.github.io/onerobot-H1/getting-started/intelligent.html)。
+本组示例归类为**标准版**，推荐升级到最新配套固件，并按下文配置原生 Zenoh。标准版与智能版使用相同通信方式，但这些动作的智能版适用性仍需核对；智能版的硬件与登录入口见[智能版连接与使用](https://onerobot-sdk.github.io/onerobot-H1/getting-started/intelligent.html)。
 
 通过 Git 获取仓库后进入本目录：
 
@@ -23,12 +23,38 @@ cd h1-examples/standard/python-control
 
 也可以在 GitHub 仓库选择 **Code → Download ZIP**，解压后进入 `standard/python-control/`。开发手册保留的兼容下载包解压后为 `example/`，进入该目录即可；这两种方式均在本 README 所在目录执行后续 `cd demos`。
 
-## 电脑端 ROS 2 与 DDS 配置
+## 电脑端 ROS 2 通信配置
 
-H1 标准版当前使用 ROS 2 Jazzy，DDS 实现为 **Cyclone DDS（`rmw_cyclonedds_cpp`）**。
-在调试电脑上运行示例前，先连接机器人所在网络，并在运行 Python 示例、`ros2` 命令或 RViz2 的终端中配置相同的 RMW 实现。
+H1 使用 ROS 2 Jazzy。在调试电脑上运行示例前，先连接机器人所在网络，查询[设备实际固件版本](https://onerobot-sdk.github.io/onerobot-H1/firmware.html)；如为旧固件，建议按[OTA 说明](https://onerobot-sdk.github.io/onerobot-H1/faq/network-ota.html#q17)升级到最新配套版本。运行 Python 示例、`ros2` 命令或 RViz2 的终端需要加载与设备匹配的通信环境。
 
-### 首次安装与当前终端配置
+### 配置原生 Zenoh
+
+标准版和智能版均使用 **`rmw_zenoh_cpp`**。先按[开发电脑的 Zenoh 配置](https://onerobot-sdk.github.io/onerobot-H1/getting-started/communication.html#pc-zenoh)安装支持包、配置电脑 router，并创建 `~/h1-zenoh-env.sh`。只设置 RMW 环境变量还不够；机器人本机继续使用固件提供的通信配置。
+
+完成上述配置后，先退出电脑上使用旧环境的示例或 RViz2，在新的 Bash 终端执行：
+
+```bash
+source ~/h1-zenoh-env.sh
+ros2 pkg prefix rmw_zenoh_cpp
+echo "$RMW_IMPLEMENTATION"
+ros2 daemon stop
+ros2 topic list
+```
+
+`echo` 应输出 `rmw_zenoh_cpp`。确认能看到机器人话题，再按[通信验证](https://onerobot-sdk.github.io/onerobot-H1/getting-started/communication.html#verify)订阅 `/device_info`，确认持续收到设备数据后运行示例。每个运行示例或 RViz2 的终端都需要加载同一环境；IDE、容器和其他 Shell 也需配置对应环境。
+
+若看不到话题，按通信配置页依次核对机器人 IP、电脑 router、RMW 环境及设备服务。`ros2 daemon stop` 只停止电脑端 ROS 2 CLI 缓存进程，不会重启机器人进程。
+
+<a id="电脑端-ros-2-与-dds-配置"></a>
+
+<details>
+<summary>兼容说明：尚未升级的标准版（Cyclone DDS）</summary>
+
+建议优先升级到[最新配套固件](https://onerobot-sdk.github.io/onerobot-H1/firmware.html)，然后使用上面的 Zenoh 配置；升级步骤见[网络配置与 OTA](https://onerobot-sdk.github.io/onerobot-H1/faq/network-ota.html#q17)。暂时无法升级时，再使用本节兼容配置。
+
+以下步骤仅适用于固件早于 **1.0.104.261028**、使用 **Cyclone DDS（`rmw_cyclonedds_cpp`）** 的标准版。智能版不使用本节配置。兼容性说明见[旧版标准版 DDS 配置](https://onerobot-sdk.github.io/onerobot-H1/getting-started/communication.html#legacy-dds)。
+
+#### 首次安装与当前终端配置
 
 以下命令在已安装 ROS 2 Jazzy 的 Ubuntu 电脑上执行：
 
@@ -44,10 +70,10 @@ ros2 pkg prefix rmw_cyclonedds_cpp
 echo "$RMW_IMPLEMENTATION"
 ```
 
-`echo` 应输出 `rmw_cyclonedds_cpp`。当前默认使用方式**不需要单独设置 `ROS_DOMAIN_ID`**。
+`echo` 应输出 `rmw_cyclonedds_cpp`。旧版标准版的默认使用方式**不需要单独设置 `ROS_DOMAIN_ID`**。
 机器人内部的 `CYCLONEDDS_URI` 和网卡配置由固件管理，不要把板端配置路径或网卡名直接复制到电脑。
 
-### Bash 自动生效
+#### Bash 自动生效
 
 如希望新终端自动使用该配置，在电脑的 `~/.bashrc` 中添加下面两行；已有相同配置时不用重复添加。
 将 RMW 设置放在 ROS 环境加载语句之后，并避免后续配置覆盖它：
@@ -59,7 +85,7 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
 保存后执行 `source ~/.bashrc`，或重新打开 Bash 终端。IDE、容器和其他 Shell 中启动的程序也需要加载对应环境。
 
-### 切换 DDS 后检查通信
+#### 切换 DDS 后检查通信
 
 如果此前使用过其他 RMW 实现，先退出电脑上旧的示例或 RViz2，重新加载环境，再重启电脑上的 ROS 2 CLI daemon：
 
@@ -74,6 +100,8 @@ ros2 topic list
 daemon 重启只影响电脑端命令行发现服务，不会重启机器人进程。
 
 参考：[ROS 2 官方 RMW 配置说明](https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html)。
+
+</details>
 
 ## 目录结构
 
